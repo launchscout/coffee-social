@@ -30,20 +30,6 @@ h5 {
   text-shadow:0px -1px 0px #578f85;
 }
 
-.headerIcons {
-  font-size: 50px;
-  color: #f3e9d8;
-  text-shadow:0px -1px 0px #578f85, 0px 1px 0px #f7f0e5;
-  text-align:center;
-}
-
-.headerCopy {
-  color: #f3e9d8;
-  font-size:12px;
-  padding-bottom: 5px;
-  text-align:center;
-}
-
 .mainCopy {
   font-family: ITCKabelStd-Bold;
   font-size: 18px;
@@ -57,6 +43,7 @@ h5 {
 }
 
 .columns.centered.logo {
+  text-align: center;
   margin-top: 2em;
 }
 
@@ -105,7 +92,7 @@ h5 {
   margin-bottom: 1ex;
 }
 
-.titleBreak {
+.title hr {
   color: #6b5c42;
   background: #6b5c42;
   border: 0;
@@ -121,34 +108,6 @@ h5 {
   text-shadow: 0px 1px 0px #fff, 0px -1px 0px #444;
 }
 
-.footer {
-  text-align:center;
-  background: #f3e9d8;
-  width:100%;
-}
-
-.footerCopy {
-  color: #6b5c42;
-  font-size:12px;
-  padding-bottom: 5px;
-}
-
-.footerIcons {
-  font-size: 50px;
-  color: #8fbcb4;
-  padding-bottom:20px;
-  text-shadow:0px -1px 0px #578f85, 0px 1px 0px #fff;
-  text-align:center;
-}
-
-.twtr-doc {
-  font-family: ITCKabelStd-Book;
-}
-
-.twtr-tweet-text {
-  font-family: ITCKabelStd-Medium;
-
-}
 /*MOBILE*/
 
 @media only screen and (max-width: 767px) {
@@ -179,6 +138,7 @@ h5 {
     font-size: 18px;
     display: inline-block;
     margin-left: 1em;
+    margin-bottom: 0;
 }
 
 .detail h4 {
@@ -186,6 +146,7 @@ h5 {
     display: inline-block;
     min-width: 3em;
     text-align: right;
+    padding: 0;
 }
 
 .content {
@@ -193,14 +154,6 @@ h5 {
   background: url('../images/content_bg.jpg');
   /*width:473px;*/
   padding-bottom: 100px;
-}
-
-.twtr-bd {
-  width:345px;
-}
-
-.twtr-ft {
-  width:345px;
 }
 
 }
