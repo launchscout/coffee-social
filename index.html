@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Gaslight Software | Coffee</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/font-awesome.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="six columns">
+<!--       <div class="row">
+        <div class="five columns">
+          <h5>Invite others:</h5>
+          <div class="headerIcons">
+          <i class="icon-twitter"></i>
+          <i class="icon-map-marker"></i>
+          <i class="icon-envelope-alt"></i>
+          </div>
+        </div>
+        <div class="five columns">
+          <h5>Dont forget:</h5>
+          <div class="headerIcons">
+            <i class="icon-calendar"></i>
+          </div>
+        </div>
+      </div> -->
+      <div class="icon"><img src="images/coffee_icon.png" alt=""></div>
+    </div>
+
+    <div class="six columns">
+      <div class="content">
+        <div class="row">
+          <div class="ten columns centered">
+            <div class="title">
+              COME
+              <hr class="titleBreak">
+              <div id="coffee">DRINK COFFEE</div>
+              <hr class="titleBreak">
+              BE COOL
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="ten columns centered">
+            <p class="mainCopy">We all have a morning routine. Let’s break it for just one morning each week. Come start your Friday off slow with awesome coffee and fun conversation. There’s no agenda, no slides, no topic, just coffee.</p>
+          </div>
+        </div>
+        <div class="row circles">
+          <div class="four columns">
+            <div class="circle">
+              <h4>WHEN:</h4>
+              <p>Fridays at 8am</p>
+            </div>
+          </div>
+          <div class="four columns">
+            <div class="circle">
+             <h4>WHERE:</h4><p>11126 Kenwood Rd, Suite C, 45242</p>
+            </div>
+          </div>
+          <div class="four columns">
+            <div class="circle">
+              <h4>WHY:</h4>
+              <p>Why not?</p>
+            </div>
+          </div>
+        </div>
+        <div class="row bullet">
+          <div class="five columns centered">
+            <img src="images/gaslight.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+ <div class="row">
+    <div class="three columns">
+       <h4>Invite others:</h4>
+       <div class="footerCopy">Tell your friends to come join us.</div>
+       <div class="footerIcons">
+          <i class="icon-twitter"></i>
+          <i class="icon-map-marker"></i>
+          <i class="icon-envelope-alt"></i>
+       </div>
+      </div>
+    <div class="three columns">
+      <h4>Dont forget:</h4>
+      <div class="footerCopy">Add a calender reminder.</div>
+      <div class="footerIcons">
+        <i class="icon-calendar"></i>
+      </div>
+    </div>
+
+    <div class="six columns">
+    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#gaslightcoffee',
+  interval: 30000,
+  title: 'Gaslight Coffee',
+  subject: 'Tweets about Friday coffee.',
+  width: 470,
+  height: 150,
+  theme: {
+    shell: {
+      background: 'none',
+      color: '#000333'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '333',
+      links: '#71b4a8'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+  </div>
+ </div>
+</div>
+
+  <!-- Included JS Files -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/jquery.reveal.js"></script>
+  <script src="javascripts/jquery.orbit-1.4.0.js"></script>
+  <script src="javascripts/jquery.customforms.js"></script>
+  <script src="javascripts/jquery.placeholder.min.js"></script>
+  <script src="javascripts/jquery.tooltips.js"></script>
+  <script src="javascripts/app.js"></script>
+
+</body>
+</html>
