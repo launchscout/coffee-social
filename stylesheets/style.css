@@ -61,17 +61,17 @@ h5 {
 }
 
 .content {
-  height: 100%;
   background: url('../images/content_bg.jpg');
   /*width:473px;*/
   padding-bottom: 40px;
 }
 
-.row.circles {
+.row.details {
   margin: 0px;
+  margin-bottom: 3ex;
 }
 
-.circle {
+.detail {
   text-align: center; 
   font-family: ITCKabelStd-Book;
   color: white;
@@ -82,7 +82,7 @@ h5 {
   background: url('../images/brownbackground.png');
 }
 
-.circle h4 { 
+.detail h4 { 
   padding-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 10px;
@@ -166,7 +166,7 @@ h5 {
   padding:15px;
 }
 
-.circle {
+.detail {
     width: auto;
     height: auto;
     border-radius: 0;
@@ -175,13 +175,13 @@ h5 {
     color: #6b5c42;
 }
 
-.circle p { 
+.detail p { 
     font-size: 18px;
     display: inline-block;
     margin-left: 1em;
 }
 
-.circle h4 {
+.detail h4 {
     color: #6b5c42;
     display: inline-block;
     min-width: 3em;
@@ -189,6 +189,7 @@ h5 {
 }
 
 .content {
+
   background: url('../images/content_bg.jpg');
   /*width:473px;*/
   padding-bottom: 100px;
