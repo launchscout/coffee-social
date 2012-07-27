@@ -1,4 +1,10 @@
-html,body,.row.main { height: 100%; }
+html,body{ 
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: auto !important; /* real browsers */
+  height: 100%;
+}
 
 body {
   background: url('../images/bg.jpg');
@@ -30,6 +36,11 @@ h5 {
   text-shadow:0px -1px 0px #578f85;
 }
 
+.row.main{
+  min-height: 100%;
+  height: auto !important; /* real browsers */
+  height: 100%;
+}
 .mainCopy {
   font-family: ITCKabelStd-Bold;
   font-size: 18px;
