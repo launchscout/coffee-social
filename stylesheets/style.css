@@ -126,7 +126,8 @@ h5 {
 
 .mainCopy {
   font-family: 'bree',sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
   text-align:center;
   color: #503f23;
   text-shadow: 0px 1px 0px #fff;
