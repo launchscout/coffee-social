@@ -6,6 +6,17 @@ html,body{
   height: 100%;
 }
 
+.twtr-widget .twtr-hd h4 {
+  font-family: 'LeagueGothic';
+  font-size: 24px !important;
+  text-transform:uppercase;
+  color: #6B5C42 !important;
+}
+
+.twitter.row {
+  margin: 20px;
+}
+
 body {
   background: url('../images/bg.jpg');
 }

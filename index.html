@@ -75,6 +75,37 @@
             There’s no agenda, no slides, no topic, just coffee.</p>
         </div>
       </div>
+      <div class="twitter row">
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#gaslightcoffee',
+  interval: 30000,
+  subject: 'Tweets about Friday coffee.',
+  width: '100%',
+  height: 250,
+  theme: {
+    shell: {
+      background: 'none',
+      color: '#6B5C42'
+    },
+    tweets: {
+      background: '#F3E9D8',
+      color: '333',
+      links: '#B35E03'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+      </div>
       <div class="row">
         <div class="five columns centered logo">
           <img src="images/gaslight.png" alt="gaslight software">
