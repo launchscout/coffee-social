@@ -7,7 +7,7 @@ html,body{
 }
 
 .twtr-widget .twtr-hd h4 {
-  font-family: 'LeagueGothic';
+  font-family: 'league-gothic';
   font-size: 24px !important;
   text-transform:uppercase;
   color: #6B5C42 !important;
@@ -19,21 +19,6 @@ html,body{
 
 body {
   background: url('../images/bg.jpg');
-}
-
-@font-face {
-  font-family: 'ITCKabelStd-Bold';
-  src: url('../fonts/ITCKabelStd-Bold.otf');
-}
-
-@font-face {
-  font-family: 'LeagueGothic';
-  src: url('../fonts/League Gothic.otf');
-}
-
-@font-face {
-  font-family: 'ITCKabelStd-Book';
-  src: url('../fonts/ITCKabelStd-Book.otf');
 }
 
 h4 {
@@ -53,7 +38,7 @@ h5 {
   height: 100%;
 }
 .mainCopy {
-  font-family: ITCKabelStd-Bold;
+  font-family: 'bree',sans-serif;
   font-size: 18px;
   text-align:center;
   color: #503f23;
@@ -83,7 +68,7 @@ h5 {
 
 .detail {
   text-align: center; 
-  font-family: ITCKabelStd-Book;
+  font-family: 'bree',sans-serif;
   color: white;
   font-size: 13px;
   width: 126px; 
@@ -96,7 +81,7 @@ h5 {
   padding-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-  font-family: LeagueGothic;
+  font-family: 'league-gothic';
   text-shadow: none;
   font-style: none;
   color: white;
@@ -104,7 +89,7 @@ h5 {
 
 
 .columns.centered.title {
-  font-family: LeagueGothic;
+  font-family: 'league-gothic';
   font-size: 6em;
   text-align:center;
   text-shadow: 0px 1px 0px #fff, 0px -1px 0px #000;
@@ -125,7 +110,7 @@ h5 {
 
 #coffee {
   color: #e78419;
-  font-family: LeagueGothic;
+  font-family: 'league-gothic';
   font-size: 1em;
   text-align:center;
   text-shadow: 0px 1px 0px #fff, 0px -1px 0px #444;
@@ -140,7 +125,7 @@ h5 {
 }
 
 .mainCopy {
-  font-family: ITCKabelStd-Bold;
+  font-family: 'bree',sans-serif;
   font-size: 18px;
   text-align:center;
   color: #503f23;
